@@ -7,7 +7,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
    site: 'http://jessangiolini.github.io/JessAngiolini.gitgub.io/',
-   base: '/JessAngiolini.github.io/',
+   base: '/JessAngiolini.gitgub.io/',
   integrations: [tailwind(), react()],
   vite: {
     resolve: {
